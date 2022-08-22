@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  color: white;
+  transition: all ease-out 0.5s;
+  z-index: 1;
+}
+
+.nav-black {
+  background-color: #111;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-avatar {
+  width: 3rem;
+}
